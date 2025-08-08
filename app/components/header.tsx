@@ -26,7 +26,7 @@ export default function Header() {
                         <Link href='/' className="hover:text-yellow-500">Menu</Link>
                         <Link href='/' className="hover:text-yellow-500">Contact US</Link>
                         <div>
-                            <button className="px-4 py-2 bg-yellow-500 text-black ">Order Now</button>
+                            <div className="text-white cursor-pointer font-bold hover:before:bg-white relative p-2 text-center w-40 my-8 overflow-hidden bg-yellow-500 px-3 transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-yellow-500 before:transition-all before:duration-500 hover:text-yellow-500 hover:before:left-0 hover:before:w-full text-lg uppercase"><span className="relative z-10">Order Now</span></div>
                         </div>
                     </div>
                     <div className="lg:hidden flex">
@@ -59,7 +59,7 @@ export default function Header() {
                                 <p className="pt-2 text-xl font-semibold">Organic</p>
                             </div>
                         </div>
-                        <button className="text-xl mt-4 px-4 py-2 bg-yellow-500 text-black ">Learn More</button>
+                        <div className="text-white cursor-pointer font-bold hover:before:bg-white relative p-2 text-center w-40 my-8 overflow-hidden bg-yellow-500 px-3 transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-yellow-500 before:transition-all before:duration-500 hover:text-yellow-500 hover:before:left-0 hover:before:w-full text-lg uppercase"><span className="relative z-10">Learn More</span></div>
                     </div>
                 </div>
 
