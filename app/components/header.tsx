@@ -64,7 +64,7 @@ export default function Header() {
                 </div>
 
                 {/* category box */}
-                <div className="lg:flex flex-wrap lg:justify-around justify-center mt-10 mb-10">
+                <div className="lg:flex flex-wrap lg:justify-around justify-center mx-auto mt-10 mb-10">
                     <Image className="cursor-pointer py-8" src={menu01} alt="" width={500} height={500} />
                     <Image className="cursor-pointer py-8" src={menu02} alt="" width={500} height={500} />
                     <Image className="cursor-pointer py-8" src={menu03} alt="" width={500} height={500} />
